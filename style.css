@@ -1,0 +1,12 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.header-section {
+    padding: 200px 0;
+}
+
+.header-title {
+    font-size: 75px;
+    color: rgb(196, 210, 8);
+}
