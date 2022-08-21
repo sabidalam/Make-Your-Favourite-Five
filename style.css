@@ -3,10 +3,53 @@ body {
 }
 
 .header-section {
-    padding: 200px 0;
+    padding-top: 100px;
+    background-color: black;
 }
 
 .header-title {
     font-size: 75px;
     color: rgb(196, 210, 8);
+    padding-top: 140px;
+}
+
+.banner-img {
+    padding-left: 40px;
+}
+
+.card-img {
+    height: 230px;
+}
+
+.selected {
+    height: 471px;
+    width: 350px;
+}
+
+.budget {
+    width: 350px;
+    height: 571px;
+}
+
+.total {
+    margin-left: 120px;
+}
+
+@media only screen and (min-width:992px) {
+    .header-title {
+
+        margin-left: 34%;
+
+    }
+
+    .header-text {
+        margin-left: 34%;
+    }
+
+
+    .select-btn {
+        padding: 10px 80px;
+    }
+
+
 }
