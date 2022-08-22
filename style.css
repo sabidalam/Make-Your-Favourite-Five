@@ -29,6 +29,7 @@ body {
 .budget {
     width: 350px;
     height: 571px;
+    background-color: navy;
 }
 
 .total {
