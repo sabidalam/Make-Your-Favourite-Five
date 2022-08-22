@@ -27,7 +27,6 @@ function selectedPlayer(event) {
         addList.innerText = listItemValue;
         orderdList.appendChild(addList);
 
-
     } else {
         alert('You have already selected five players...can`t add more!');
     }

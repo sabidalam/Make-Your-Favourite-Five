@@ -13,14 +13,10 @@ body {
     padding-top: 140px;
 }
 
-
-
 .banner-2 {
     padding-top: 57px;
     display: none;
 }
-
-
 
 .card-img {
     height: 230px;
@@ -36,7 +32,7 @@ body {
 .budget {
     width: 350px;
     height: 571px;
-    background-color: navy;
+    background-color: rgb(18, 18, 48);
 }
 
 .total {
@@ -44,10 +40,9 @@ body {
 }
 
 @media only screen and (min-width:992px) {
+
     .header-title {
-
         margin-left: 34%;
-
     }
 
     .banner-img {
@@ -62,10 +57,7 @@ body {
         margin-left: 34%;
     }
 
-
     .select-btn {
         padding: 10px 80px;
     }
-
-
 }
