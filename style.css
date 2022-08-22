@@ -8,14 +8,23 @@ body {
 }
 
 .header-title {
-    font-size: 75px;
+    font-size: 65px;
     color: rgb(196, 210, 8);
-    padding-top: 140px;
+    padding-top: 100px;
+}
+
+.banner-img {
+    height: 409px;
+    width: 400px;
 }
 
 .banner-2 {
-    padding-top: 57px;
-    display: none;
+    height: 408px;
+    width: 400px;
+}
+
+.card {
+    height: 85%;
 }
 
 .card-img {
@@ -23,15 +32,15 @@ body {
 }
 
 .selected {
-    height: 471px;
-    width: 350px;
+    width: 300px;
+    height: 480px;
     color: white;
     background-color: black;
 }
 
 .budget {
-    width: 350px;
-    height: 571px;
+    width: 300px;
+    height: 553px;
     background-color: rgb(18, 18, 48);
 }
 
@@ -40,22 +49,6 @@ body {
 }
 
 @media only screen and (min-width:992px) {
-
-    .header-title {
-        margin-left: 34%;
-    }
-
-    .banner-img {
-        padding-left: 40px;
-    }
-
-    .banner-2 {
-        display: block;
-    }
-
-    .header-text {
-        margin-left: 34%;
-    }
 
     .select-btn {
         padding: 10px 80px;
