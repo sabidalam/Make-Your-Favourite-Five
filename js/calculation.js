@@ -11,12 +11,6 @@ function getTextFieldById(textId) {
     return textFieldValue;
 }
 
-function getText(fieldId) {
-    const textElement = document.getElementById(fieldId);
-    const elementValue = textElement.li;
-    return elementValue;
-}
-
 function setTextFieldById(elementId, value) {
     const element = document.getElementById(elementId);
     element.innerText = value;
@@ -42,10 +36,11 @@ function selectedPlayer(event) {
 
 document.getElementById('calculate-btn').addEventListener('click', function () {
 
+    const orderdList = document.getElementById('orderd-list');
 
     const perPlayerCost = getInputFieldById('per-player-cost');
 
-    const playerExpenses = perPlayerCost * 5;
+    const playerExpenses = perPlayerCost * orderdList.children.length;
 
     setTextFieldById('player-expenses', playerExpenses);
 })
