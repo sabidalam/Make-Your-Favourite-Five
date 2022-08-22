@@ -13,9 +13,14 @@ body {
     padding-top: 140px;
 }
 
-.banner-img {
-    padding-left: 40px;
+
+
+.banner-2 {
+    padding-top: 57px;
+    display: none;
 }
+
+
 
 .card-img {
     height: 230px;
@@ -24,6 +29,7 @@ body {
 .selected {
     height: 471px;
     width: 350px;
+    color: white;
 }
 
 .budget {
@@ -41,6 +47,14 @@ body {
 
         margin-left: 34%;
 
+    }
+
+    .banner-img {
+        padding-left: 40px;
+    }
+
+    .banner-2 {
+        display: block;
     }
 
     .header-text {

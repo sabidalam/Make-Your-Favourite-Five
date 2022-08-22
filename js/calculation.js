@@ -11,18 +11,37 @@ function getTextFieldById(textId) {
     return textFieldValue;
 }
 
+function getText(fieldId) {
+    const textElement = document.getElementById(fieldId);
+    const elementValue = textElement.li;
+    return elementValue;
+}
+
 function setTextFieldById(elementId, value) {
     const element = document.getElementById(elementId);
     element.innerText = value;
 
 }
 
-// document.getElementById('select-btn').addEventListener('click', function () {
+// -------------------Slected-V section---------------//
+
+function selectedPlayer(event) {
+    const orderdList = document.getElementById('orderd-list');
+    const addList = document.createElement('li');
+    const listItemValue = event;
+    if (orderdList.children.length < 5) {
+        addList.innerText = listItemValue;
+        orderdList.appendChild(addList);
 
 
-// })
+    } else {
+        alert('You have already selected five players...can`t add more!');
+    }
+}
+// -------------------budget section---------------//
 
 document.getElementById('calculate-btn').addEventListener('click', function () {
+
 
     const perPlayerCost = getInputFieldById('per-player-cost');
 
