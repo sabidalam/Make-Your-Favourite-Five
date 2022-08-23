@@ -8,19 +8,20 @@ body {
 }
 
 .header-title {
-    font-size: 65px;
+    font-size: 45px;
     color: rgb(196, 210, 8);
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .banner-img {
-    height: 409px;
-    width: 400px;
+    height: 327px;
+    width: 350px;
 }
 
+
 .banner-2 {
-    height: 408px;
-    width: 400px;
+    height: 327px;
+    width: 350px;
 }
 
 .card {
@@ -32,15 +33,15 @@ body {
 }
 
 .selected {
-    width: 300px;
-    height: 480px;
+    width: 246px;
+    height: 382px;
     color: white;
     background-color: black;
 }
 
 .budget {
-    width: 300px;
-    height: 553px;
+    width: 250px;
+    height: 454px;
     background-color: rgb(18, 18, 48);
 }
 
@@ -51,6 +52,6 @@ body {
 @media only screen and (min-width:992px) {
 
     .select-btn {
-        padding: 10px 80px;
+        padding: 4px 50px;
     }
 }
